@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a {
+            font-size: 20px;
+            text-decoration: none;
+            color: rgb(95, 60, 60);
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            background-color: #f2fcfe;
+        }
+
+        .headerText {
+            font-size: 20px;
+            padding-top: 20px;
+        }
+
+        .headerBtn {
+            background-color: brown;
+            width: 100px;
+            height: 150px;
+        }
+
+        .navigation {
+            display: flex;
+        }
+
+        .projeYoutube {
+            background-color: rgb(164, 155, 172);
+        }
+
+        .projeGoogle {
+            background-color: burlywood;
+        }
+
+        .projeYandex {
+            background-color: chocolate;
+        }
+
+        .box {
+            margin: 10px;
+            padding: 100px;
+            border-radius: 2em;
+        }
+
+        .text {
+            font-size: 25px;
+            padding: 20px;
+
+        }
+
+        .subNavigation {
+            display: flex;
+        }
+
+        .boxHeader {
+            text-align: center;
+            margin-bottom: 50px;
+
+        }
+
+        .projeCap {
+            background-color: cadetblue;
+        }
+
+        .projeBinance {
+            background-color: rgb(97, 150, 44);
+        }
+
+        .inputBlock {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .inputInfo {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .inputMain {
+            display: flex;
+            margin-bottom: 10px;
+        }
+
+        .inputMessage {
+            width: 400px;
+            height: 200px;
+        }
+
+        .inputSize {
+            width: 190px;
+            height: 50px;
+
+        }
+
+        .email {
+            margin-right: 10px;
+        }
+
+        .sendBtn {
+            background-color: rgb(232, 231, 231);
+            border-radius: 1em;
+            width: 100px;
+            margin-top: 5px;
+        }
+
+        .footerMain {
+            margin-top: 20px;
+            border-radius: 2em;
+            background-color: coral;
+        }
+
+        .footerBox {
+
+            display: flex;
+        }
+
+        .footerText {
+            font-size: 25px;
+            margin-top: 100px;
+            padding: 20px;
+            border: 2px solid rgb(180, 164, 164);
+            border-radius: 2em;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+        <img src="./imeg/pngegg (27).png" alt="">
+        <h1>Project</h1>
+        <p class="headerText">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        <button class="headerBtn"><a href="./index1.html">Profil</a></button>
+    </header>
+
+    <main>
+        <div class="navigation">
+            <div class="projeYoutube box">
+                <div class="boxHeader">
+                    <a href="https://www.youtube.com/?hl=RU">Yotube</a>
+                    <img src="./imeg/pngegg (22).png" alt="">
+                </div>
+                <p class="youtubeText text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur,
+                    officiis. Dicta harum nihil, dolor non inventore architecto nam vitae quibusdam.</p>
+            </div>
+            <div class="projeGoogle box">
+                <div class="boxHeader">
+                    <a href="https://www.google.az/">Google</a>
+                    <img src="./imeg/pngegg (22).png" alt="">
+                </div>
+                <p class="googleText text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ad minima
+                    id
+                    perferendis, laudantium porro delectus illo. Et, asperiores ducimus!</p>
+            </div>
+            <div class="projeYandex box">
+                <div class="boxHeader">
+                    <a href="https://yandex.ru/">Yandex</a>
+                    <img src="./imeg/pngegg (22).png" alt="">
+                </div>
+                <p class="yandexText text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, eligendi! Nam
+                    ipsum ab, amet alias pariatur vitae. Dignissimos cupiditate ipsam esse natus at animi?
+                    Blanditiis illo quae aut fugit nisi!</p>
+            </div>
+        </div>
+        <div class="subNavigation">
+            <div class="projeCap box">
+                <div class="boxHeader">
+                    <a href="https://coinmarketcap.com/">Coinmarketcap</a>
+                    <img src="./imeg/pngegg (22).png" alt="">
+                </div>
+                <p class="capText text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum inventore atque
+                    dolorum hic, nemo molestias mollitia ipsa nihil enim rem consequatur maxime voluptatibus autem
+                    delectus.</p>
+            </div>
+            <div class="projeBinance box">
+                <div class="boxHeader">
+                    <a href="https://www.binance.com/">Binance</a>
+                    <img src="./imeg/pngegg (22).png" alt="">
+                </div>
+                <p class="binanceText text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum aperiam,
+                    delectus quam voluptatum culpa repellat provident quas ad quasi debitis voluptatibus minus
+                    aliquid eligendi libero harum nesciunt hic tempora inventore!</p>
+            </div>
+        </div>
+        <div class="inputBlock">
+            <img src="./imeg/pngegg (20).png" alt="">
+            <div class="inputInfo">
+                <h2>Contact</h2>
+                <p>How to contact me</p>
+                <div class="inputMain">
+                    <input class="email inputSize" type="email" placeholder="Email">
+                    <input class="name inputSize" type="text" placeholder="Nama">
+                </div>
+                <textarea class="inputMessage" name="message"></textarea>
+                <button class="sendBtn">Send</button>
+            </div>
+        </div>
+
+    </main>
+    <footer class="footerMain">
+        <div class="footerBox">
+            <img src="./imeg/pngegg (17111).png" alt="">
+            <p class="footerText text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla minus libero
+                pariatur, eveniet, deserunt ipsum totam saepe dolor non reiciendis ducimus magni iste repellat ab. Minus
+                deleniti vero dolore non. Quis nemo voluptates possimus nam veniam deserunt dolores eaque incidunt
+                suscipit, illum quisquam. Dignissimos sint et odio itaque commodi unde!</p>
+        </div>
+        <p class="footerDown">© 2022 Cable News Network.A Warner Bros. Discovery Company.All Rights Reserved.
+            XXX Sans ™ & © 2016 Cable News Network.</p>
+    </footer>
+
+
+</body>
+
+</html>
